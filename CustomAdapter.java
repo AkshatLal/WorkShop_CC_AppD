@@ -29,9 +29,9 @@ class CustomAdapter extends ArrayAdapter<Items> {
         TextView mnumber=listitemview.findViewById(R.id.contact);
         mnumber.setText(item.getMnumber());
         TextView mtext=listitemview.findViewById(R.id.text);
-        mtext.setText(item.getMtext());
+        mtext.setText(item.getMtext());//setting text
         CircleImageView profile=listitemview.findViewById(R.id.profile);
-        profile.setImageResource(item.getmImageID());
+        profile.setImageResource(item.getmImageID());//setting profile images
         return listitemview;
     }
 
