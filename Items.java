@@ -9,24 +9,23 @@ class Items {
         this.mnumber = mnumber;
         this.mtext = mtext;
         this.mImageID=mImageID;
-    }
+    }//Constructor to initialize the class Items parameters
 
     public String getMcontact() {
         return mcontact;
-    }
+    }//Getter method to return contact name
 
     public String getMtime() {
         return mtime;
-    }
+    }//Getter method to return time
 
     public String getMnumber() {
         return mnumber;
-    }
+    }//Getter method to return sender number
 
     public String getMtext() {
         return mtext;
-    }
-    public int getmImageID(){
-        return mImageID;
-    }
+    }//Getter method to return text
+
+    public int getmImageID(){ return mImageID; }//Getter method to return id of the image resource
 }
